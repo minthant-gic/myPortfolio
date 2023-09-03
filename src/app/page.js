@@ -9,9 +9,6 @@ import Head from "next/head";
 const Home = () => {
     return (
         <>
-            <Head>
-                <title>Portfolio</title>
-            </Head>
             <Navbar />
         </>
     );

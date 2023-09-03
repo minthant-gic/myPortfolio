@@ -1,31 +1,47 @@
+'use client'
 import React from 'react';
-import Link from "next/link";
+import email from '../../public/email.svg'
+import github from '../../public/github.png'
+import facebook from '../../public/facebook.png'
+import linkedin from '../../public/linkedin.png'
+import Image from "next/image";
 
 const Navbar = () => {
-    return (
-        <div className="bg-red-500 fixed top-0 w-[100%] z-10">
-            <div className="container mx-auto flex justify-between items-center py-4">
-                <div className="text-[24px]">Portfolio</div>
+    const openGmail = () => {
+        const emailAddress = 'minthantmg169@mail.com';
+        const mailtoLink = `mailto:${emailAddress}`;
 
-                <div className="flex gap-6">
-                    <Link legacyBehavior href="/">
-                        <a className="hover:text-[#ff4D41]">Home</a>
-                    </Link>
-                    <Link legacyBehavior href="/about">
-                        <a className="hover:text-[#ff4D41]">About</a>
-                    </Link>
-                    <Link legacyBehavior href="/portfolio">
-                        <a className="hover:text-[#ff4D41]">Portfolio</a>
-                    </Link>
-                    <Link legacyBehavior href="/blog">
-                        <a className="hover:text-[#ff4D41]">Blog</a>
-                    </Link>
-                    <Link legacyBehavior href="/contact">
-                        <a className="hover:text-[#ff4D41]">Contact</a>
-                    </Link>
+        window.open(mailtoLink);
+    };
+    return (
+        <>
+            <div className="border-b-2 flex justify-between items-center px-2 py-2">
+                <div className="flex justify-center items-center">
+                    <div className="rounded-full border" onClick={openGmail}>
+                    <Image src={email} alt='' className="w-4 h-4 m-4"/>
+                    </div>
+                    <h5 className="px-4 text-sm">Get in touch</h5>
+                </div>
+                <div className="flex justify-center items-center">
+                    <a className="cursor-pointer px-2" href="https://www.linkedin.com/in/min-thant-2620411b3/">
+                        <Image src={linkedin} alt='' className="w-6 h-6"/>
+                    </a>
+                    <div className="ml-2 mr-2 hidden">
+                        /
+                    </div>
+                    <a className="cursor-pointer px-2" href="https://www.facebook.com/min.thant.925/">
+                        <Image src={facebook} alt='' className="w-6 h-6"/>
+                    </a>
+                    <div className="ml-2 mr-2 hidden">
+                        /
+                    </div>
+                    <a className="cursor-pointer px-2" href="https://github.com/Minthantmg">
+                        <Image src={github} alt='' className="w-6 h-6"/>
+                    </a>
+
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
