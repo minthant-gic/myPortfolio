@@ -1,15 +1,14 @@
 import React from 'react';
-import Image from "next/image";
-import facebookIcon from "../../public/facebook.png"
-import linkedinIcon from "../../public/linkedin.png"
-import GithubIcon from "../../public/github.png"
 import Navbar from "@/app/navbar";
-import Head from "next/head";
+import MainBody from "@/app/mainBody";
+import MyCarousel from "@/app/MyCarousel";
 
 const Home = () => {
     return (
         <>
             <Navbar />
+            <MainBody />
+            {/*<MyCarousel />*/}
         </>
     );
 };
