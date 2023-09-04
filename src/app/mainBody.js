@@ -18,7 +18,7 @@ const MainBody = () => {
                 backgroundClip: 'text',
                 color: 'transparent',
             }}>
-                Building Mobile app,Website and experience.
+                Building Mobile app,Website and Experience.
             </div>
         </div>
     );
