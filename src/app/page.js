@@ -7,14 +7,16 @@ import html from '../../public/html.svg'
 import dummy from '../../public/dummy.jpeg'
 import Card from "@/app/card";
 import Contact from "@/app/contact";
+import Timeline from "@/app/timeline";
 
 const Home = () => {
     return (
         <>
             <Navbar />
             <MainBody />
-            <MyCarousel />
             <Card />
+            <Timeline />
+            <MyCarousel />
             <Contact />
         </>
     );
