@@ -24,21 +24,23 @@ const Navbar = () => {
                 </div>
                 <div className="flex justify-center items-center">
                     <a className="cursor-pointer px-2" href="https://www.linkedin.com/in/min-thant-2620411b3/">
-                        <Image src={linkedin} alt='' className="w-6 h-6"/>
+                        <Image src={linkedin} alt='' className="w-6 h-6 sm:hidden"/>
+                        <div className="hidden sm:block text-sm">Linkedin</div>
                     </a>
-                    <div className="ml-2 mr-2 hidden">
+                    <div className="ml-2 mr-2 hidden sm:block">
                         /
                     </div>
                     <a className="cursor-pointer px-2" href="https://www.facebook.com/min.thant.925/">
-                        <Image src={facebook} alt='' className="w-6 h-6"/>
+                        <Image src={facebook} alt='' className="w-6 h-6 sm:hidden"/>
+                        <div className="hidden sm:block text-sm">Facebook</div>
                     </a>
-                    <div className="ml-2 mr-2 hidden">
+                    <div className="ml-2 mr-2 hidden sm:block">
                         /
                     </div>
                     <a className="cursor-pointer px-2" href="https://github.com/Minthantmg">
-                        <Image src={github} alt='' className="w-6 h-6"/>
+                        <Image src={github} alt='' className="w-6 h-6 sm:hidden"/>
+                        <div className="hidden sm:block text-sm">Github</div>
                     </a>
-
                 </div>
             </div>
         </>

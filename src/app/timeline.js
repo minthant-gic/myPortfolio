@@ -12,7 +12,7 @@ const Timeline = () => {
                     </div>
                     <div className="ml-4">
                         <div className="text-sm font-mono">
-                            1 December 2014
+                            1 December 2014 - 1 December 2021
                         </div>
                         <div className="text-2xl font-mono">
                             University Student
@@ -31,7 +31,7 @@ const Timeline = () => {
                     </div>
                     <div className="ml-4 mt-8">
                         <div className="text-sm font-mono">
-                            1 May 2020
+                            1 May 2020 - 31 February 2021
                         </div>
                         <div className="text-2xl font-mono">
                             Android Developer
@@ -50,7 +50,7 @@ const Timeline = () => {
                     </div>
                     <div className="ml-4 mt-8">
                         <div className="text-sm font-mono">
-                            1 february 2021
+                            1 February 2021 - 31 January 2021
                         </div>
                         <div className="text-2xl font-mono">
                             Freelance Developer
@@ -69,7 +69,7 @@ const Timeline = () => {
                     </div>
                     <div className="ml-4 mt-8 mb-4">
                         <div className="text-sm font-mono">
-                            1 January 2022
+                            1 January 2022 - Present
                         </div>
                         <div className="text-2xl font-mono">
                             Programmer

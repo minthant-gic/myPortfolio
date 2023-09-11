@@ -31,7 +31,7 @@ const Card = () => {
                     }}>
                         Web Development
                     </div>
-                    <div className="font-mono text-sm ml-3 mt-11 mb-4">
+                    <div className="font-mono text-sm ml-3 mt-11 sm:mt-4 mb-4">
                         Transforming ideas into exceptional web experiences.
                     </div>
                 </div>

@@ -20,7 +20,9 @@ const Contact = () => {
             </div>
             <div className="mt-10 mb-14" onClick={openGmail}>
                 <div className="flex justify-center items-center">
-                    <div className="flex justify-center items-center px-2 py-4 mt-4 border">
+                    <div
+                        className="flex justify-center items-center px-2 py-4 mt-4 border cursor-pointer rounded-sm">
+
                         <div className="mr-6">Get in touch</div>
                         <div>
                             <Image src={email} alt=""/>
@@ -34,21 +36,23 @@ const Contact = () => {
                 </div>
                 <div className="flex">
                     <a className="cursor-pointer px-2" href="https://www.linkedin.com/in/min-thant-2620411b3/">
-                        <Image src={linkedin} alt='' className="w-6 h-6"/>
+                        <Image src={linkedin} alt='' className="w-6 h-6 sm:hidden"/>
+                        <div className="hidden sm:block text-sm">Linkedin</div>
                     </a>
-                    <div className="ml-2 mr-2 hidden">
+                    <div className="ml-2 mr-2 hidden sm:block">
                         /
                     </div>
                     <a className="cursor-pointer px-2" href="https://www.facebook.com/min.thant.925/">
-                        <Image src={facebook} alt='' className="w-6 h-6"/>
+                        <Image src={facebook} alt='' className="w-6 h-6 sm:hidden"/>
+                        <div className="hidden sm:block text-sm">Facebook</div>
                     </a>
-                    <div className="ml-2 mr-2 hidden">
+                    <div className="ml-2 mr-2 hidden sm:block">
                         /
                     </div>
                     <a className="cursor-pointer px-2" href="https://github.com/Minthantmg">
-                        <Image src={github} alt='' className="w-6 h-6"/>
+                        <Image src={github} alt='' className="w-6 h-6 sm:hidden"/>
+                        <div className="hidden sm:block text-sm">Github</div>
                     </a>
-
                 </div>
             </div>
 

@@ -1,5 +1,6 @@
 'use client';
 import React, {useState, useEffect} from 'react';
+import Image from "next/image";
 
 const MyCarousel = ({interval = 2000}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,9 +25,9 @@ const MyCarousel = ({interval = 2000}) => {
         return () => clearInterval(intervalId);
     }, [currentIndex, interval]);
 
-    const renderImages = () => {
+    const renderImages = (count) => {
         const renderedImages = [];
-        for (let i = 0; i < 3; i++) {
+        for (let i = 0; i < count; i++) {
             const imageIndex = (currentIndex + i) % images.length;
             const image = images[imageIndex];
             renderedImages.push(
@@ -34,21 +35,22 @@ const MyCarousel = ({interval = 2000}) => {
                     key={imageIndex}
                     src={image}
                     alt={`Slide ${imageIndex + 1}`}
-                    style={{width: '50%', height: '10%'}}
-                    className="ml-2 px-2 mr-2 w-1/3"
+                    style={{ width: '50%', height: '10%' }}
+                    className="ml-2 px-2 mr-2 w-1/5 sm:mx-16"
                 />
             );
         }
         return renderedImages;
     };
 
+
     return (
         <>
             <div className="mt-16 font-mono text-2xl text-center">Experience with</div>
             <div className="mt-6 mb-16">
-                <div className="image-carousel flex flex-row justify-center items-center ml-24 py-4"
+                <div className="image-carousel flex flex-row justify-center items-center ml-24 py-4 sm:w-screen sm:ml-80"
                      style={{width: '50%', height: '10%'}}>
-                    {renderImages()}
+                        {renderImages(3)}
                 </div>
             </div>
         </>

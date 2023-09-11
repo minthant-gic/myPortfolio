@@ -8,16 +8,22 @@ import dummy from '../../public/dummy.jpeg'
 import Card from "@/app/card";
 import Contact from "@/app/contact";
 import Timeline from "@/app/timeline";
+import Project from "@/app/project";
 
 const Home = () => {
     return (
         <>
-            <Navbar />
-            <MainBody />
-            <Card />
-            <Timeline />
-            <MyCarousel />
-            <Contact />
+            <div className="flex justify-center w-full">
+                <div className="max-w-6xl w-full">
+                    <Navbar />
+                    <MainBody />
+                    <Card />
+                    <Timeline />
+                    <Project />
+                    <MyCarousel />
+                    <Contact />
+                </div>
+            </div>
         </>
     );
 };
