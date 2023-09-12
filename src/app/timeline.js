@@ -6,7 +6,7 @@ const Timeline = () => {
             <div className="font-mono text-3xl ml-4 mt-16 font-bold">
                 Career TimeLine
             </div>
-            <div className="flex mt-4 ml-8 relative">
+            <div className="flex mt-4 ml-4 relative">
                 <div className="border-l-8 border-gray-300">
                     <div className="bg-blue-400 w-5 h-5 rounded-full absolute -ml-3.5 mt-4">
                     </div>
@@ -21,10 +21,10 @@ const Timeline = () => {
                             University of Computer Studies,Yangon
                         </div>
                         <div className="text-sm font-mono mt-4 text-left pr-4">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book. It has survived not only five
-                            centuries,
+                            My university student life was a transformative experience. I immersed myself in challenging
+                            academics, forged lasting friendships, and discovered my passions. It taught me
+                            independence, time management, and critical thinking. This chapter prepared me for the
+                            future and left me with cherished memories of personal and intellectual growth.
                         </div>
                     </div>
                     <div className="bg-blue-400 w-5 h-5 rounded-full absolute -ml-3.5 mt-12">
@@ -40,29 +40,10 @@ const Timeline = () => {
                             Hex Creative
                         </div>
                         <div className="text-sm font-mono mt-4 text-left pr-4">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book. It has survived not only five
-                            centuries,
-                        </div>
-                    </div>
-                    <div className="bg-blue-400 w-5 h-5 rounded-full absolute -ml-3.5 mt-12">
-                    </div>
-                    <div className="ml-4 mt-8">
-                        <div className="text-sm font-mono">
-                            1 February 2021 - 31 January 2021
-                        </div>
-                        <div className="text-2xl font-mono">
-                            Freelance Developer
-                        </div>
-                        <div className="font-base font-mono">
-                            Freelancer
-                        </div>
-                        <div className="text-sm font-mono mt-4 text-left pr-4">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book. It has survived not only five
-                            centuries,
+                            During my tenure as a Junior Android Developer, I contributed to the development of mobile
+                            applications, implemented new features, optimized codebase for efficiency, and collaborated
+                            in a team environment. I played a key role in enhancing user experiences and ensuring the
+                            functionality of Android apps for our clients.
                         </div>
                     </div>
                     <div className="bg-blue-400 w-5 h-5 rounded-full absolute -ml-3.5 mt-12">
@@ -78,10 +59,10 @@ const Timeline = () => {
                             Global Innovative Consulting
                         </div>
                         <div className="text-sm font-mono mt-4 text-left pr-4">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book. It has survived not only five
-                            centuries,
+                            I am a Programmer specializing in web development at a Japanese company. My role involves
+                            crafting robust and responsive web solutions, collaborating with cross-functional teams, and
+                            ensuring optimal website performance. I contribute to creating dynamic and user-centric web
+                            experiences that align with the company's goals and meet client expectations.
                         </div>
                     </div>
                 </div>

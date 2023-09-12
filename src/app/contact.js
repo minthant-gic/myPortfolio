@@ -3,7 +3,7 @@ import React from 'react';
 import email from '../../public/email.svg'
 import Image from "next/image";
 import linkedin from "../../public/linkedin.png";
-import facebook from "../../public/facebook.png";
+import instagram from "../../public/instagram.png";
 import github from "../../public/github.png";
 
 const Contact = () => {
@@ -42,9 +42,9 @@ const Contact = () => {
                     <div className="ml-2 mr-2 hidden sm:block">
                         /
                     </div>
-                    <a className="cursor-pointer px-2" href="https://www.facebook.com/min.thant.925/">
-                        <Image src={facebook} alt='' className="w-6 h-6 sm:hidden"/>
-                        <div className="hidden sm:block text-sm">Facebook</div>
+                    <a className="cursor-pointer px-2" href="https://instagram.com/m1n_thant?igshid=YTQwZjQ0NmI0OA==">
+                        <Image src={instagram} alt='' className="w-6 h-6 sm:hidden"/>
+                        <div className="hidden sm:block text-sm">Instagram</div>
                     </a>
                     <div className="ml-2 mr-2 hidden sm:block">
                         /

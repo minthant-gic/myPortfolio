@@ -48,7 +48,7 @@ const MyCarousel = ({interval = 2000}) => {
             <div className="mt-16 font-mono text-2xl text-center">Experience with</div>
             <div className="mt-6 mb-16">
                 <div
-                    className="image-carousel flex flex-row justify-center items-center ml-24 py-4 sm:w-screen sm:ml-80"
+                    className="image-carousel flex flex-row justify-center items-center ml-24 py-4 sm:w-screen sm:ml-80 mt-10"
                     style={{width: '50%', height: '10%'}}>
                     {renderImages(4)}
                 </div>
