@@ -6,7 +6,7 @@ const Project = () => {
             <div className="text-3xl font-mono font-bold mt-10 ml-4">
                 Projects
             </div>
-            <div className="flex mt-4">
+            <div className="flex mt-4 mx-2">
                 <div className="w-1/3 h-16">
                     <div className="bg-red-600">Hello</div>
                 </div>

@@ -35,8 +35,7 @@ const MyCarousel = ({interval = 2000}) => {
                     key={imageIndex}
                     src={image}
                     alt={`Slide ${imageIndex + 1}`}
-                    style={{ width: '50%', height: '10%' }}
-                    className="ml-2 px-2 mr-2 w-1/5 sm:mx-16"
+                    className="ml-2 px-2 mr-2 w-20 md:w-32 sm:mx-16"
                 />
             );
         }
@@ -48,9 +47,10 @@ const MyCarousel = ({interval = 2000}) => {
         <>
             <div className="mt-16 font-mono text-2xl text-center">Experience with</div>
             <div className="mt-6 mb-16">
-                <div className="image-carousel flex flex-row justify-center items-center ml-24 py-4 sm:w-screen sm:ml-80"
-                     style={{width: '50%', height: '10%'}}>
-                        {renderImages(3)}
+                <div
+                    className="image-carousel flex flex-row justify-center items-center ml-24 py-4 sm:w-screen sm:ml-80"
+                    style={{width: '50%', height: '10%'}}>
+                    {renderImages(4)}
                 </div>
             </div>
         </>
